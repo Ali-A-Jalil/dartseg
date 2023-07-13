@@ -1,0 +1,2856 @@
+body
+{
+    font-family: 'Montserrat', sans-serif ;
+}
+.text-min
+{
+    color: #e65f78;
+}
+.Alyes
+{
+    color: #fff;
+}
+/* Nav */
+nav
+{
+    width: 100%;
+    height: 90px;
+    z-index: 999999999;
+
+}
+.navbar-light .navbar-nav .nav-link 
+{
+    color: rgb(75, 31, 1) !important;
+}
+.navbar-brand
+{
+    color: white !important;
+}
+.navbar-light .navbar-nav .nav-link:hover
+{
+    color: #ff9900 !important;
+}
+
+nav .logo
+{
+    height: 120px;
+}
+.testey
+{
+    width: 80px;
+    height: 80px;
+}
+#navbarDropdown{
+    width: 60x;
+}
+#navbedroom
+{
+    width: 100%;
+    height: 90px;
+    z-index: 999999999;
+}
+/* Nav */
+
+/*ButtonUp*/
+
+#btnUp
+{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999999999;
+    display: none;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+}
+
+
+
+#colorbenk a:hover 
+{
+    color: #ff9900;
+}
+#imgeSaz
+{
+    width: 20px;
+    height: 20px;
+}
+/* home*/
+#home
+{
+    background-image: url('img/armchair-room_53876-98323.jpg');
+    color: rgb(255, 255, 255);
+    height: 100vh;
+    background-size: 100% 100%;
+    background-position: center center; 
+    text-align: center;
+    font-family: 'Fanwood Text', serif;
+}
+#home .overlay
+{
+    background-color: rgba(253, 244, 244, 0.7);
+    height: 100%;
+    width: 100%;
+}
+#home .overlay .big-home
+{
+    height: 100%;
+}
+#home .overlay .big-home h1
+{
+    font-size: 60px;
+    font-weight: 700;
+}
+#home .overlay .big-home p 
+{
+    width: 35%;
+}
+/* home*/
+#sen-us i
+{
+    color: #4e2f00;
+
+}
+#sen-us .icon:hover i
+{
+    color: #ff9900;
+    
+}
+/*App*/
+.for-app  i
+{
+    width: 42px;
+    height: 42px;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 2px solid #ff9900;
+    text-align: center;
+    line-height: 38px;
+    transition: all 0.5s;
+    color:#ff9900;
+}
+.for-app ul il:hover i
+{
+    color:#4e2f00 ;
+    border-color: #4e2f00;
+}
+/*App*/
+
+/*showing*/
+#showing
+{
+    background-color: #d2dfeb!important;
+}
+/*showing*/
+
+#home .overlay
+{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+}
+#home .overlay .big-home
+{
+    height: 100%;
+}
+#home .overlay .big-home h1
+{
+    font-size: 60px;
+    font-weight: 700;
+}
+#home .overlay .big-home p 
+{
+    width: 35%;
+}
+#home .overlay .big-home h1:hover
+{
+    color: rgb(0, 16, 241);
+}
+/* home*/
+@media ( max-width:990px)
+{
+    nav
+    {
+        background-color: white;
+
+    }
+    .navbar-light .navbar-nav .nav-link ,.navbar-light .navbar-brand
+
+{
+    color: black !important;
+}
+#home .overlay .big-home h1
+{
+    font-size: 30px;
+}
+#home .overlay .big-home p 
+{
+    width: 80%;
+}
+#home .overlay .big-home h6
+{
+    width: 100%;
+}
+}
+
+span, h6
+{
+    color:#e65f78 ;
+}
+#home .scroll
+{
+    padding: 18px 10px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    position: absolute;
+    bottom: 50px; 
+    animation: scroll 1s infinite;
+}
+#home .scroll:after
+{
+    content: "";
+    position: absolute;
+    background-color: #fff;
+}
+
+@keyframes scroll
+{
+    0%{bottom: 20px ;}
+    20%{bottom: 40px ;}
+    40%{bottom: 25 ;}
+    80%{bottom: 15px;}
+    100%{bottom: 20px ;}
+}
+/*<Media>*/
+
+/* our works */
+
+.bigfont
+{
+    font-weight: 700;
+}
+::selection .ourworks
+{
+    background-color: rgba(166, 175, 189, 0.3);
+    color: #6c757d;
+
+}
+.nav .nav-item a
+{
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 6px 16px;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 5px;
+    transition: all 0.5s;
+}
+.nav .nav-item a:hover , .nav .nav-item .active
+{
+    color: #fff;
+    background-color: #e65f78;
+}
+.container  .work-box .work-img img
+{
+    transition: all 0.27s;
+
+}
+.container  .work-box:hover .work-img img
+{
+    transform: scale(1.05);
+}
+.work-h
+{
+    position: absolute;
+    transition: all 0.27s;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    top: 110;
+}
+.container  .work-box .work-info
+{
+    /*z-index: 5;*/
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transition: all 0.27s;
+}
+.work-box:hover .work-info
+{
+    opacity: 1;
+}
+.work-box:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+.container   .work-box .work-info .work-h h4
+{
+    color: #fff;
+    font-size: 18px;
+}
+.container   .work-box .work-info .work-h h6
+{
+    clear:#fff ;
+    font-size: 14px;
+}
+.card .card-litter h5 a
+{
+    color: #343a40;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.2;
+    outline: none!important;
+    box-shadow: none!important;
+}
+.card .card-litter h6 a
+{
+    color:#e65f78 ;
+    font-weight: 700;
+    outline: none!important;
+    box-shadow: none!important;
+}
+.card .card-litter .read
+{
+    color: #6c757d;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif!important;
+    outline: none!important;
+    box-shadow: none!important;
+}
+/* our works */
+.heading
+{
+    font-family: 'Open Sans', sans-serif;
+}
+.heading h2
+{
+    font-size: 5rem;
+    font-weight: 900;
+    color: #f1f1f1;
+}
+
+.heading h3
+{
+    font-size: 2.5rem;
+    font-weight: 900;
+
+}
+.portfolio
+{
+    background-image: url(../dartswood/img/point.jpg);
+    background-color: white !important;
+
+}
+
+#Blogine
+{
+    height: 100vh;
+    background-size: 100% 100%;
+    background-image:  url(./img/test/background04.jpg);
+}
+/*filter: blur(8px);*/
+#Blogine .login
+
+{
+    background-color: rgba(26, 26, 26, 0.7);
+    height: 100%;
+    width: 100%;
+    padding: 8% 0;
+    
+}
+
+
+
+.container-fluid i
+{
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 50%;
+    border: 1px solid #0004f7;
+    text-align: center;
+    line-height: 38px;
+    transition: all 0.5s;
+    color:#f5f0f0;
+}
+.container-fluid :hover i
+{
+    color: #e6274a;
+    width: 42px;
+    height: 42px;
+    font-size: 20px;
+    border: 2px solid #e6274a;
+
+}
+#broom
+{
+    background-image: url(./img/bedroom/cover\ bedroom.jpg);
+    background-size: cover;
+    height: 90vh;
+    background-size: 100% 100%;
+    left: 0;
+    right: 0;
+}
+
+
+.container  .proj-bed .proj-info
+{
+    z-index: 5;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(185, 179, 179, 0.8);
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-bed:hover .proj-info
+{
+    opacity: 1;
+}
+.proj-bed:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*
+.page-header
+{
+    width: 100%;
+    height: auto;
+    border: 0;
+    margin: 0;
+    background-color: transparent;
+}
+*/
+
+
+#showingbed
+{
+    background-color: #e6eef7!important;
+}
+#showingbed i
+{
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 50%;
+    border: 1px solid #01023f;
+    color: #01023f;
+}
+
+/*office*/
+
+#officeroom
+{
+    background-image: url(./img/office/OFFICE\ COVER.jpg);
+    background-size: cover;
+    height: 90vh;
+    background-size: 100% 100%;
+    left: 0;
+    right: 0;
+}
+
+
+/*living room*/
+#livingroom
+{
+    background-image: url(./img/livingroom/LIVINGROOM\ COVER.jpg);
+    background-size: cover;
+    height: 90vh;
+    background-size: 100% 100%;
+    left: 0;
+    right: 0;
+}
+.for-card i
+{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e65f78;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+    line-height: 28px;
+    color: #e65f78;
+}
+
+#beds
+{
+    background-image: url(./img/bedroom/beds/beds\ cover.jpg);
+    background-size: cover;
+    height: 70vh;
+    background-size: 100% 100%;
+    left: 0;
+    right: 0;
+}
+
+
+
+/*beds*/
+
+.proj-bedone .proj-infone 
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/beds/seaction\ 01-A-2.jpg);
+    background-size: 95%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-bedone:hover .proj-infone
+{
+    opacity: 1;
+}
+.proj-bedone:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*Tow*/
+
+.proj-bedtow .proj-inftow 
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/beds/seaction\ 02-A-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-bedtow:hover .proj-inftow
+{
+    opacity: 1;
+}
+.proj-bedtow:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*Thri*/
+
+.proj-bedthri .proj-infthri
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/beds/seaction\ 03-A-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-bedthri:hover .proj-infthri
+{
+    opacity: 1;
+}
+.proj-bedthri:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*For*/
+
+.proj-bedfor .proj-inffor
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/beds/seaction\ 04-A-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-bedfor:hover .proj-inffor
+{
+    opacity: 1;
+}
+.proj-bedfor:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*Five*/
+
+.proj-bedfive .proj-inffive
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/beds/seaction\ 05-A-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-bedfive:hover .proj-inffive
+{
+    opacity: 1;
+}
+.proj-bedfive:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*sex*/
+
+.proj-bedsex .proj-infsex
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/beds/seaction\ 06-A-1.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-bedsex:hover .proj-infsex
+{
+    opacity: 1;
+}
+.proj-bedsex:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*seven*/
+
+.proj-bedseven .proj-infseven
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/beds/seaction\ 07-A-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-bedseven:hover .proj-infseven
+{
+    opacity: 1;
+}
+.proj-bedseven:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+
+/*eight*/
+
+.proj-bedeight .proj-infeight
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/beds/seaction\ 08-A-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-bedeight:hover .proj-infeight
+{
+    opacity: 1;
+}
+.proj-bedeight:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*nine*/
+
+.proj-bednine .proj-infnine
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/beds/seaction\ 09-A-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-bednine:hover .proj-infnine
+{
+    opacity: 1;
+}
+.proj-bednine:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*ten*/
+
+.proj-bedten .proj-inften
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/beds/seaction\ 10-A-1.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-bedten:hover .proj-inften
+{
+    opacity: 1;
+}
+.proj-bedten:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*eleven */
+
+.proj-bedeleven  .proj-infeleven 
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/beds/seaction\ 11-A-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-bedeleven:hover .proj-infeleven 
+{
+    opacity: 1;
+}
+.proj-bedeleven:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*tewelve*/
+.proj-bedtewelve  .proj-inftewelve 
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/beds/seaction\ 12-A-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-bedtewelve:hover .proj-inftewelve 
+{
+    opacity: 1;
+}
+.proj-bedtewelve:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*thriten*/
+.proj-bedthriten  .proj-infthriten 
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/beds/seaction\ 13-A-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-bedthriten:hover .proj-infthriten 
+{
+    opacity: 1;
+}
+.proj-bedthriten:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*forten*/
+
+.proj-bedforten  .proj-infforten
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/beds/seaction\ 14-A-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-bedforten:hover .proj-infforten 
+{
+    opacity: 1;
+}
+.proj-bedforten:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*fiveten*/
+
+.proj-bedfveten  .proj-inffveten
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/beds/seaction\ 15-A-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-bedfveten:hover .proj-inffveten
+{
+    opacity: 1;
+}
+.proj-bedfveten:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*sexten*/
+
+.proj-bedsexten  .proj-infsexten
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/beds/seaction\ 16-A-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-bedsexten:hover .proj-infsexten
+{
+    opacity: 1;
+}
+.proj-bedsexten:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*Seventen*/
+
+.proj-bedseventen  .proj-infseventen
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/beds/seaction\ 17-A-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-bedseventen:hover .proj-infseventen
+{
+    opacity: 1;
+}
+.proj-bedseventen:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*Nineten*/
+
+.proj-bednineten  .proj-infnineten
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/beds/seaction\ 18-A-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-bednineten:hover .proj-infnineten
+{
+    opacity: 1;
+}
+.proj-bednineten:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+
+/* storage & Hover*/
+
+
+#storage
+{
+    background-image: url(./img/bedroom/STORAGE/storage\ cover.jpg);
+    background-size: cover;
+    height: 70vh;
+    background-size: 100% 100%;
+    left: 0;
+    right: 0;
+}
+
+/*One*/
+.proj-storageone  .proj-infstorageone
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/STORAGE/02A.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-storageone:hover .proj-infstorageone
+{
+    opacity: 1;
+}
+.proj-storageone:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+/*two*/
+
+.proj-storagetow  .proj-infostoragetow
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/STORAGE/02A-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-storagetow:hover .proj-infostoragetow
+{
+    opacity: 1;
+}
+.proj-storagetow:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+/*thri*/
+
+.proj-storagethri  .proj-infostoragethri
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/STORAGE/03A-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-storagethri:hover .proj-infostoragethri
+{
+    opacity: 1;
+}
+.proj-storagethri:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*For*/
+
+.proj-storagefor  .proj-infostoragefor
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/STORAGE/section\ 01B.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-storagefor:hover .proj-infostoragefor
+{
+    opacity: 1;
+}
+.proj-storagefor:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*five*/
+
+.proj-storagefive  .proj-infostoragefive
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/STORAGE/section\ 02B-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-storagefive:hover .proj-infostoragefive
+{
+    opacity: 1;
+}
+.proj-storagefive:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*Six*/
+
+.proj-storagesix  .proj-infostoragesix
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/STORAGE/section\ 03B-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-storagesix:hover .proj-infostoragesix
+{
+    opacity: 1;
+}
+.proj-storagesix:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*Seven*/
+
+.proj-storageseven  .proj-infostorageseven
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/STORAGE/section\ 02C.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-storageseven:hover .proj-infostorageseven
+{
+    opacity: 1;
+}
+.proj-storageseven:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*Eight*/
+
+.proj-storageeight  .proj-infostorageeight
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/STORAGE/section\ 02C-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-storageeight:hover .proj-infostorageeight
+{
+    opacity: 1;
+}
+.proj-storageeight:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*Nine*/
+.proj-storagenine  .proj-infostoragenine
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/STORAGE/section\ 03C-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-storagenine:hover .proj-infostoragenine
+{
+    opacity: 1;
+}
+.proj-storagenine:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*Ten*/
+
+.proj-storageten  .proj-infostorageten
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/STORAGE/section\ 02D.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-storageten:hover .proj-infostorageten
+{
+    opacity: 1;
+}
+.proj-storageten:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*Eleven*/
+
+.proj-storageeleven  .proj-infostorageeleven
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/STORAGE/section\ 02D-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-storageeleven:hover .proj-infostorageeleven
+{
+    opacity: 1;
+}
+.proj-storageeleven:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*Tewelve*/
+
+.proj-storagetewelve  .proj-infostoragetewelve
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/STORAGE/section\ 03D-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-storagetewelve:hover .proj-infostoragetewelve
+{
+    opacity: 1;
+}
+.proj-storagetewelve:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+
+/*Thriten*/
+.proj-storagethriten  .proj-infostoragethriten
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/STORAGE/section\ 02E.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-storagethriten:hover .proj-infostoragethriten
+{
+    opacity: 1;
+}
+.proj-storagethriten:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*Forten*/
+
+.proj-storageforten  .proj-infostorageforten
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/STORAGE/section\ 02E-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-storageforten:hover .proj-infostorageforten
+{
+    opacity: 1;
+}
+.proj-storageforten:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*Fveten*/
+
+.proj-storagefveten  .proj-infostoragefveten
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/STORAGE/section\ 03E-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-storagefveten:hover .proj-infostoragefveten
+{
+    opacity: 1;
+}
+.proj-storagefveten:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*sixten*/
+
+.proj-storagesixten  .proj-infostoragesixten
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/STORAGE/section\ 02F.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-storagesixten:hover .proj-infostoragesixten
+{
+    opacity: 1;
+}
+.proj-storagesixten:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*Seventen*/
+
+.proj-storageseventen  .proj-infostorageseventen
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/STORAGE/section\ 02F-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-storageseventen:hover .proj-infostorageseventen
+{
+    opacity: 1;
+}
+.proj-storageseventen:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*Eightten*/
+
+
+.proj-storageeightten  .proj-infostorageeightten
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image: url(./img/bedroom/STORAGE/section\ 03F-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-storageeightten:hover .proj-infostorageeightten
+{
+    opacity: 1;
+}
+.proj-storageeightten:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+
+/* Bed One*/
+.img-item
+{
+    width: 16%;
+    float: left;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+
+/*Worlds*/
+
+#Worlds
+{
+    background-image: url(./img/bedroom/beds/detils\ cover.jpg);
+    background-size: cover;
+    height: 90vh;
+    background-size: 100% 100%;
+    left: 0;
+    right: 0;
+
+}
+
+#towcover
+{
+    background-image: url(./img/bedroom/beds/detilstow\ cover.jpg);
+    background-size: cover;
+    height: 90vh;
+    background-size: 100% 100%;
+    left: 0;
+    right: 0;
+}
+
+#thricover
+{
+    background-image: url(./img/bedroom/beds/detilsthri\ cover.jpg);
+    background-size: cover;
+    height: 90vh;
+    background-size: 100% 100%;
+    left: 0;
+    right: 0;
+}
+
+#for-Mas
+{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    border-radius: 45%;
+
+}
+
+
+
+
+/*trends*/
+#trends
+{
+    height: 100%;
+    width: 100%;
+}
+
+#forcardi i
+{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 1px solid #ff9900;
+    line-height: 29px;
+    color: #4e2f00;
+}
+
+#appy a 
+{
+    color: #343a40;
+}
+
+#appy span
+{
+    color: #343a40 !important;
+    font-family: 'Architects Daughter', cursive;
+}
+
+#plants
+{
+    width:90px;
+    height:90px;
+    border-radius: 15%;
+}
+
+#nature h1
+{
+    padding: 0;
+    font-size: 2.625rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Kaisei HarunoUmi', serif;
+    color: white;
+}
+
+#nature p
+{
+    padding: 0;
+    margin: 0 0 10px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Kaisei HarunoUmi', serif;
+    color: white;
+}
+
+#nature h3
+{
+    padding: 0;
+    margin: 5px 0 0;
+    font-size: 28px;
+    font-weight: 300;
+    text-transform: none;
+    line-height: 30px;
+    font-family: 'Kaisei HarunoUmi', serif;
+    color: white;
+
+}
+
+#nature
+{
+    background-image: url(./img/bedroom/natural/natural\ cover.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+    background-position: center center; 
+    font-family: 'Fanwood Text', serif;
+
+}
+
+#nature .overnature
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+}
+
+.nature-h
+{
+    position: absolute;
+    transition: all 0.27s;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    top: 140;
+}
+
+.bignature  .prj-nature .nature-inf
+{
+    z-index: 5;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(185, 179, 179, 0.8);
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+.prj-nature:hover .nature-inf
+{
+    opacity: 1;
+}
+.prj-nature:hover .nature-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+#sofas
+{
+    background-image: url(./img/livingroom/LIVING/living\ cover.jpg);
+    height: 90vh;
+    background-size: 100% 100%;
+    background-position: center center; 
+    font-family: 'Fanwood Text', serif;
+}
+
+
+#chaire
+{
+    background-image: url(./img/livingroom/chairs/chaire\ cover.jpg);
+    height: 75vh;
+    background-size: 100% 100%;
+    background-position: center center; 
+    font-family: 'Fanwood Text', serif;
+}
+
+.picture
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.picture img
+{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 1s ease;
+    -webkit-transition: -webkit-transform 1s ease;
+    -moz-transition: -moz-transform 1s ease;
+    transition: transform 1s ease;
+}
+
+.picture .img-overlay 
+{
+    position: absolute;
+    display: block;
+    background: rgba(0,0,0,0.4);    
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease; 
+}
+.picture:hover .img-overlay 
+{ 
+    opacity: 1; 
+}
+
+.picture:hover img 
+{
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
+}
+#picimg
+{
+    height: auto;
+    max-width: 100%;
+}
+
+
+/* living one*/
+
+.proj-sofaone  .proj-infsofaone
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/livingroom/LIVING/living\ 01-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-sofaone:hover .proj-infsofaone
+{
+    opacity: 1;
+}
+.proj-sofaone:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+
+/* living two*/
+
+.proj-sofatow  .proj-infsofatow
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/livingroom/LIVING/living\ 02-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-sofatow:hover .proj-infsofatow
+{
+    opacity: 1;
+}
+.proj-sofatow:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/* living thri*/
+
+.proj-sofathri  .proj-infsofathri
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/livingroom/LIVING/living\ 03-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-sofathri:hover .proj-infsofathri
+{
+    opacity: 1;
+}
+.proj-sofathri:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/* living for*/
+
+.proj-sofafor  .proj-infsofafor
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/livingroom/LIVING/living\ 04-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-sofafor:hover .proj-infsofafor
+{
+    opacity: 1;
+}
+.proj-sofafor:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/* living five*/
+
+.proj-sofafive  .proj-infsofafive
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/livingroom/LIVING/living\ 05-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-sofafive:hover .proj-infsofafive
+{
+    opacity: 1;
+}
+.proj-sofafive:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/* living six*/
+
+.proj-sofasix  .proj-infsofasix
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/livingroom/LIVING/living\ 06-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-sofasix:hover .proj-infsofasix
+{
+    opacity: 1;
+}
+.proj-sofasix:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/* living seven*/
+
+.proj-sofaseven  .proj-infsofaseven
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/livingroom/LIVING/living\ 07-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-sofaseven:hover .proj-infsofaseven
+{
+    opacity: 1;
+}
+.proj-sofaseven:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/* living eight*/
+
+.proj-sofaeight  .proj-infsofaeight
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/livingroom/LIVING/living\ 08-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-sofaeight:hover .proj-infsofaeight
+{
+    opacity: 1;
+}
+.proj-sofaeight:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/* living nine*/
+
+.proj-sofanine  .proj-infsofanine
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/livingroom/LIVING/living\ 09-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-sofanine:hover .proj-infsofanine
+{
+    opacity: 1;
+}
+.proj-sofanine:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/* living ten*/
+
+.proj-sofaten  .proj-infsofaten
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/livingroom/LIVING/living\ 010-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-sofaten:hover .proj-infsofaten
+{
+    opacity: 1;
+}
+.proj-sofaten:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/* living eleven*/
+
+.proj-sofaeleven  .proj-infsofaeleven
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/livingroom/LIVING/living\ 011-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-sofaeleven:hover .proj-infsofaeleven
+{
+    opacity: 1;
+}
+.proj-sofaeleven:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/* living tewelv*/
+
+.proj-sofatewelve  .proj-infsofatewelve
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/livingroom/LIVING/living\ 012-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-sofatewelve:hover .proj-infsofatewelve
+{
+    opacity: 1;
+}
+.proj-sofatewelve:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/* living thrten*/
+
+.proj-sofathriten  .proj-infsofathriten
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/livingroom/LIVING/living\ 013-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-sofathriten:hover .proj-infsofathriten
+{
+    opacity: 1;
+}
+.proj-sofathriten:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/* living forten*/
+
+.proj-sofaforten  .proj-infsofaforten
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/livingroom/LIVING/living\ 014-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-sofaforten:hover .proj-infsofaforten
+{
+    opacity: 1;
+}
+.proj-sofaforten:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/* living fiveten*/
+
+.proj-sofafveten  .proj-infsofafveten
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/livingroom/LIVING/living\ 015-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-sofafveten:hover .proj-infsofafveten
+{
+    opacity: 1;
+}
+.proj-sofafveten:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/* living sixten*/
+
+.proj-sofasexten  .proj-infsofasexten
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/livingroom/LIVING/living\ 016-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-sofasexten:hover .proj-infsofasexten
+{
+    opacity: 1;
+}
+.proj-sofasexten:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/* living seventen*/
+
+.proj-sofaseventen  .proj-infsofaseventen
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/livingroom/LIVING/living\ 17-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-sofaseventen:hover .proj-infsofaseventen
+{
+    opacity: 1;
+}
+.proj-sofaseventen:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/* living eightten*/
+
+.proj-sofanineten  .proj-infsofanineten
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/livingroom/LIVING/living\ 18-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.proj-sofanineten:hover .proj-infsofanineten
+{
+    opacity: 1;
+}
+.proj-sofanineten:hover .work-h
+{
+    top: 35%;
+    transform: translate(0 , -30%);
+    
+}
+
+/*REDING MORE*/
+.read-more 
+{
+    display: table;
+    margin: 0 auto;
+}
+.read-more a 
+{
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    border: 1px solid #999999;
+    color: #999999;
+    padding: 0 10px;
+    font-size: 10px; 
+    font-weight: 700;   
+    letter-spacing: 2px;
+    line-height: 28px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.read-more a:hover
+{
+    color: #FFFFFF;
+    background: #222222;
+    border-color: #222222;
+}
+
+
+
+.read-matt a
+{
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    border: 1px solid #000000;
+    color: #ffffff;
+    padding: 0 10px;
+    font-size: 10px; 
+    font-weight: 700;   
+    letter-spacing: 2px;
+    line-height: 28px;
+    background: #000000;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.read-matt a:hover
+
+{
+    background: transparent;
+    border: 2px solid #fa4e56;
+    color: #fa4e56
+}
+/* */
+
+.widget-title 
+{
+    display: block;
+    line-height: 1;
+    padding: 10px 0;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #222222;
+    border-bottom: 3px solid #a5a2a2;
+}
+.widget ul
+{
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+.widget ul li {
+    display: block;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid rgba(112, 112, 112, 0.25);
+}
+/*tag*/
+.tagcloud a 
+{
+	font-size: 13px !important;
+	background: rgba(190,190,190,.2);
+	padding: 2px 10px;
+	margin: 0 5px 5px 0;
+	display: block;
+	float: left;
+    color: black;
+}
+.tagcloud a:hover 
+{
+    background: rgba(190,190,190,.4);
+    color: orangered;
+}
+
+/* conect*/
+
+.cont-msg-frm-icn {
+	width: 350px;
+    position: absolute;
+    right: 62%;
+    bottom: 90%;
+    background-color: white;
+    padding: 1.3rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: none;
+    transition: .3s;
+   	box-shadow: 0px 2px 14px 0px grey;
+   	z-index: 9;
+   	transition: all .3s;
+}
+
+.form-control-cnt-us label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 4px;
+}
+.form-control-cnt-us .input_form_cnt_us {
+	padding: 0.4rem;
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: .1rem solid #ddd;
+    margin-bottom: 5px;
+    outline: none;
+}
+.form-control-cnt-us .input_msg_cnt_us {
+	resize: none;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 0.4rem;
+    font-size: 1rem;
+    border: .1rem solid #ddd;
+    border-radius: 4px;
+    outline: none;
+}
+.form-control-cnt-us .btn_msg_cnt_us {
+	border: none;
+    padding: 1.1rem 2rem;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color:#3DB2FF;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+.close_icon_cnt_us {
+	position: absolute;
+    right: -7px;
+    top: -13px;
+    background-color: white;
+    padding: .4rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.close_icon_cnt_us i {
+	font-size: 1.5rem;
+	color: #050506;
+}
+.cont-us-inx-icon {
+	position: fixed;
+	bottom: 7%;
+	right: 3%;
+	padding: .9rem;
+	border-radius: 50%;
+	cursor: pointer;
+    z-index: 9999999999;
+	/*border:1px solid #fff;*/
+	
+}
+.cont-icon-inx i {
+	font-size: 2rem;
+	width: 100%;
+	cursor: pointer;
+	color: #FFFF;
+	padding: .9rem;
+	border-radius: 50%;
+	background-color: #343a40;
+	box-shadow: 0px 2px 14px 0px grey;
+}
+
+#mattresses
+{
+    background-image: url(./img/bedroom/mattresses/mattresses\ cover.jpg);
+    background-size: cover;
+    height: 90vh;
+    background-size: 100% 100%;
+    left: 0;
+    right: 0;
+
+}
+
+
+
+#textMatt
+{
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+#wallArt
+{
+    background-image: url(./img/bedroom/WALL/wall\ cover.jpg);
+    background-size: cover;
+    height: 75vh;
+    background-size: 100% 100%;
+    left: 0;
+    right: 0;
+
+}
+
+#nightstands
+{
+    background-image: url(./img/bedroom/NIGHTSTANDS/night\ cover.jpg);
+    background-size: cover;
+    height: 70vh;
+    background-size: 100% 100%;
+    left: 0;
+    right: 0;
+}
+
+
+#sevencover
+{
+    background-image: url(./img/bedroom/beds/Details.7/Details\ cover.jpg);
+    background-size: cover;
+    height: 90vh;
+    background-size: 100% 100%;
+    left: 0;
+    right: 0;
+}
+
+
+/*<Related Products>*/
+
+.imgPrj  .infoImgProj
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/bedroom/beds/Details.7/A1-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.imgPrj:hover .infoImgProj
+{
+    opacity: 1;
+}
+
+.imgPrjtow  .infoImgProjtow
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/bedroom/beds/Details.7/A2-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.imgPrjtow:hover .infoImgProjtow
+{
+    opacity: 1;
+}
+
+.imgPrjthri  .infoImgProjthri
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/bedroom/beds/Details.7/A3-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.imgPrjthri:hover .infoImgProjthri
+{
+    opacity: 1;
+}
+
+.imgPrjfor  .infoImgProjfor
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/bedroom/beds/Details.7/A4-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.imgPrjfor:hover .infoImgProjfor
+{
+    opacity: 1;
+}
+
+.imgPrjfive  .infoImgProjfive
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/bedroom/beds/Details.7/A5-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.imgPrjfive:hover .infoImgProjfive
+{
+    opacity: 1;
+}
+
+
+/*</Related Products>*/
+
+#eghtcover
+{
+    background-image: url(./img/bedroom/beds/Details.8/Details\ cover.jpg);
+    background-size: cover;
+    height: 90vh;
+    background-size: 100% 100%;
+    left: 0;
+    right: 0;
+}
+
+.imgPrjt  .infoImgProjt
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/bedroom/beds/Details.8/1A-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.imgPrjt:hover .infoImgProjt
+{
+    opacity: 1;
+}
+
+.imgPrjttow  .infoImgProjttow
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/bedroom/beds/Details.8/1B-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.imgPrjttow:hover .infoImgProjttow
+{
+    opacity: 1;
+}
+
+.imgPrjtthri  .infoImgProjtthri
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/bedroom/beds/Details.8/1C-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.imgPrjtthri:hover .infoImgProjtthri
+{
+    opacity: 1;
+}
+
+
+
+/*9*/
+
+#ninecover
+{
+    background-image: url(./img/bedroom/beds/Details.9/Details\ cover.jpg);
+    background-size: cover;
+    height: 90vh;
+    background-size: 100% 100%;
+    left: 0;
+    right: 0;
+}
+
+
+.imgPrjn  .infoImgProjn
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/bedroom/beds/Details.9/1A-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.imgPrjn:hover .infoImgProjn
+{
+    opacity: 1;
+}
+
+.imgPrjtown  .infoImgProjtown
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/bedroom/beds/Details.9/1B-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.imgPrjtown:hover .infoImgProjtown
+{
+    opacity: 1;
+}
+
+.imgPrjthrin  .infoImgProjthrin
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/bedroom/beds/Details.9/1C-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.imgPrjthrin:hover .infoImgProjthrin
+{
+    opacity: 1;
+}
+
+.imgPrjforn  .infoImgProjforn
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/bedroom/beds/Details.9/1D-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.imgPrjforn:hover .infoImgProjforn
+{
+    opacity: 1;
+}
+
+
+.imgPrjfivn  .infoImgProjfivn
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/bedroom/beds/Details.9/1E-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.imgPrjfivn:hover .infoImgProjfivn
+{
+    opacity: 1;
+}
+
+.imgPrjsixn  .infoImgProjsixn
+{
+    z-index: 99999;
+    right: 0;
+    left: 0;     
+    bottom: 0;
+    top: 0;
+    background-image:url(./img/bedroom/beds/Details.9/1F-2.jpg);
+    background-size: 100%;
+    opacity: 0;
+    transition: all 0.27s;
+}
+
+
+.imgPrjsixn:hover .infoImgProjsixn
+{
+    opacity: 1;
+}
+
+/*10*/
+
+#tencover
+{
+    background-image: url(./img/bedroom/beds/Details.10/Details\ cover.jpg);
+    background-size: cover;
+    height: 90vh;
+    background-size: 100% 100%;
+    left: 0;
+    right: 0;
+}
+
+#elevcover 
+{
+    background-image: url(./img/bedroom/beds/Details.11/Details\ cover.jpg);
+    background-size: cover;
+    height: 90vh;
+    background-size: 100% 100%;
+    left: 0;
+    right: 0; 
+}
+
+#fourcover
+{
+    background-image: url(./img/bedroom/beds/Details.11/Details\ cover.jpg);
+    background-size: cover;
+    height: 90vh;
+    background-size: 100% 100%;
+    left: 0;
+    right: 0; 
+}
+
+#twelvcover
+{
+    background-image: url(./img/bedroom/beds/Details.12/Details\ cover.jpg);
+    background-size: cover;
+    height: 90vh;
+    background-size: 100% 100%;
+    left: 0;
+    right: 0;
+}
+
+#thrtencover
+{
+    background-image: url(./img/bedroom/beds/Details.13/Details\ cover.jpg);
+    background-size: cover;
+    height: 90vh;
+    background-size: 100% 100%;
+    left: 0;
+    right: 0;
+}
+
+
+#fiftcover
+{
+    background-image: url(./img/bedroom/beds/Details.15/Details\ cover.jpg);
+    background-size: cover;
+    height: 90vh;
+    background-size: 100% 100%;
+    left: 0;
+    right: 0;
+}
+
+#sixtencover
+{
+    background-image: url(./img/bedroom/beds/Details.16/Details\ cover.jpg);
+    background-size: cover;
+    height: 90vh;
+    background-size: 100% 100%;
+    left: 0;
+    right: 0;
+}
+
+#sevetencover
+{
+    background-image: url(./img/bedroom/beds/Details.17/Details\ cover.jpg);
+    background-size: cover;
+    height: 90vh;
+    background-size: 100% 100%;
+    left: 0;
+    right: 0;
+}
+
+#eghtenencover
+{
+    background-image: url(./img/bedroom/beds/Details.18/Details\ cover.jpg);
+    background-size: cover;
+    height: 90vh;
+    background-size: 100% 100%;
+    left: 0;
+    right: 0;
+}
